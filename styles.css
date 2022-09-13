@@ -16,7 +16,7 @@ section {
     bottom: 0px;
   }
   .rezume {
-    text-indent: 800px;
+    text-indent: 600px;
     color: rgb(236, 13, 13);
     left: 450px;
     top: 82px;
@@ -27,4 +27,9 @@ section {
     background-image: url('https://images7.alphacoders.com/633/633262.png');
     background-repeat: repeat-x;
     background-position: center center;
+  }
+  section {
+    display: flex-end;
+    align-items: end;
+    align-self: flex-end;
   }
